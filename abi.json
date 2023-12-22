@@ -1,0 +1,113 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"name": "addSite",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "siteName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "tag",
+				"type": "string"
+			}
+		],
+		"name": "addTagToSite",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "siteName",
+				"type": "string"
+			}
+		],
+		"name": "voteNegativeSite",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "siteName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "tagName",
+				"type": "string"
+			}
+		],
+		"name": "voteNegativeTag",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "siteName",
+				"type": "string"
+			}
+		],
+		"name": "votePositiveSite",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "siteName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "tagName",
+				"type": "string"
+			}
+		],
+		"name": "votePositiveTag",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getSites",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
